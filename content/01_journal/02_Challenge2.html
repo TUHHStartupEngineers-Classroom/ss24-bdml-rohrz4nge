@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Joschka Schwarz">
+<meta name="author" content="Maximilian Lohmann">
 
-<title>MyLabJournal - Data Acquisition</title>
+<title>MyLabJournal - Challenge 2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -101,31 +101,23 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-journal">    
         <li>
-    <a class="dropdown-item" href="../../content/01_journal/01_tidyverse.html">
- <span class="dropdown-text">01 Tidyverse</span></a>
+    <a class="dropdown-item" href="../../content/01_journal/01_Challenge1.html">
+ <span class="dropdown-text">Challenge 1</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../content/01_journal/02_data_acquisition.html">
- <span class="dropdown-text">02 Data Acquisition</span></a>
+    <a class="dropdown-item" href="../../content/01_journal/02_Challenge2.html">
+ <span class="dropdown-text">Challenge 2</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../content/01_journal/03_data_wrangling.html">
- <span class="dropdown-text">03 Data Wrangling</span></a>
+    <a class="dropdown-item" href="../../content/01_journal/03_Challenge3.html">
+ <span class="dropdown-text">Challenge 3</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../content/01_journal/04_data_visualization.html">
- <span class="dropdown-text">04 Data Visualization</span></a>
+    <a class="dropdown-item" href="../../content/01_journal/04_Challenge45.html">
+ <span class="dropdown-text">Challenge 4+5</span></a>
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="../../content/02_notes/05_class_notes.html"> 
-<span class="menu-text">Class notes</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../content/03_other/06_links.html"> 
-<span class="menu-text">Links</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -146,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Acquisition</h1>
+<h1 class="title">Challenge 2</h1>
 </div>
 
 
@@ -156,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Joschka Schwarz </p>
+             <p>Maximilian Lohmann </p>
           </div>
   </div>
     
@@ -169,19 +161,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>You can delete everything in here and start fresh.</p>
-</div>
-</div>
+<p>To implement the regression challenge, I selected a simple linear regression model. I actually struggled quite a bit with the way recipes work, but think I figured it out correctly eventually. I hope that I did use recipes correctly / enough, as I wasn’t able to figure out e.g.&nbsp;how to replace NA numbers with zeros (as done in the tutorial; but maybe this wasn’t even necessary because the NA numbers were only introduced by the manual dummy creation? Again, I’m not sure about this part.)</p>
+<p>Then, as outlined, I then used the predefined evaluation function using yardstick.</p>
+<p>The results can be found in <code>challenge2.R</code>.</p>
 
 
 
