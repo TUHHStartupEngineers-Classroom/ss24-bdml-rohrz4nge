@@ -1,0 +1,12 @@
+---
+title: "Challenge 2"
+author: "Maximilian Lohmann"
+---
+
+To implement the regression challenge, I selected a simple linear regression model.
+I actually struggled quite a bit with the way recipes work, but think I figured it out correctly eventually.
+I hope that I did use recipes correctly / enough, as I wasn't able to figure out e.g. how to replace NA numbers with zeros (as done in the tutorial; but maybe this wasn't even necessary because the NA numbers were only introduced by the manual dummy creation? Again, I'm not sure about this part.)
+
+Then, as outlined, I then used the predefined evaluation function using yardstick.
+
+The results can be found in `challenge2.R`.

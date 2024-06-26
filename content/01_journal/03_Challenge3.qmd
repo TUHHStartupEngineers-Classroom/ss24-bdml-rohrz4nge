@@ -1,0 +1,20 @@
+---
+title: "Challenge 3"
+author: "Maximilian Lohmann"
+---
+
+To answer the questions, I used `plot_ggpairs()` with all of the requested features together with the attrition.
+The results can be viewed in `challenge3.R`.
+
+My results are: 
+
+- 1a
+- 2a here I'm not sure whether it's b or c, as the line on the right line of the attrition plot is thicker for No compared to Yes. This might indicate that the mean is at 1 for No and at 0 for Yes, but it's hard to tell from the plots alone.)
+- 3c
+- 4b
+- 5c (I'm not quite sure what density refers to - I've oriented myself on the density plot where No has higher values for 2 and 3 than Yes. But I'm not certain if this plot shows the relative representation for each group, or the total one, in which case this result would be biased by the larger amount of No in the dataset. Then d would be the correct answer.)
+- 6c (similar to 5)
+- 7b
+- 8b (similar to 2)
+- 9a
+- 10a

@@ -1,0 +1,7 @@
+---
+title: "Challenge 1"
+author: "Maximilian Lohmann"
+---
+
+For the first challenge, I used the provided data to follow along the Chapter_1_Challenge.Rmd.
+The results of this can be found in `challenge1.R`.
