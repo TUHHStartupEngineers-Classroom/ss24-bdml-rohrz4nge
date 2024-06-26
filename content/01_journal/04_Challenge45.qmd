@@ -1,0 +1,11 @@
+---
+title: "Challenge 4+5"
+author: "Maximilian Lohmann"
+---
+
+I completed both challenge 4 and 5 in the same notebook, as they are closely related. 
+You can find the results in `challenge45.R`. 
+I wasn't sure how the cowplot dashboard should look like, so I just used the outputs of the previous subtasks to generate a grid plot, without creating the function that was used in the tutorial.
+For the 5th challenge, I used a different model than the previously selected best one, as I couldn't figure out how to specify the algorithm type of the best performing StackedEnsemble_AllModels_2_AutoML model for the grid search.
+So instead, I selected the deeplearning model and performed a grid search on it.
+The comparisons for task 5 are between the deeplearning model prior and after the grid search, to see the differences.
